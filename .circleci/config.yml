@@ -18,7 +18,7 @@ jobs:
     steps:
       - checkout
       - run: npm i
-      - rum: npm test
+      - rum: npm run test
   analyze:
     <<: *defaults
     steps:
